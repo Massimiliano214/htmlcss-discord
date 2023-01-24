@@ -13,7 +13,7 @@
 .container {
     max-width: 1170px;
     margin: auto;
-    background-color: blue;
+    
     align-items: center;
 }
 .container-flex {
@@ -40,6 +40,7 @@ nav {
     padding: 5px 20px;
     list-style: none;
     color: white;
+    font-size: 20px;
 }
 
 .button {
@@ -62,15 +63,35 @@ a {
 }
 
 .img {
-    background-image: url("jumbo.png");
-    height: 400px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
 }
 
 #testo_p {
-    height: 250px;
-    align-items: center;
+    height: 500px;
     width: 1170px;
-    border: 5px dashed orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .descrizioni {
