@@ -185,7 +185,7 @@ p {
 
 .footer_head {
     background-color: darkslategrey;
-    height: 400px;
+    height: 520px;
 }
 
 .container_foot {
@@ -222,17 +222,24 @@ p {
     content: "\02C5";
 }
 
-.titolo_foot, .testo_colorato {
+.titolo_foot, #testo_colorato {
     color: rgb(48, 122, 186);
     font-weight: bolder;
 }
 .lista {
-    background-color: blueviolet;
     width: calc(75%/4);
-    border: 5px dashed orange;
-    height: 300px;
+    height: 450px;
     flex-direction: column;
     padding: 10px;
+}
+
+.shortcut {
+    padding: 8px 0;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
 }
  
 .footer_bottom {
