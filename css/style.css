@@ -54,7 +54,7 @@ nav {
     text-align: end;
 }
 
-a {
+a:not(.links) {
     background-color: white;
     border-radius: 30px;
     padding: 13px;
@@ -172,7 +172,7 @@ p {
 
 .bottone_blue {
     color: white;
-    background-color: blue;
+    background-color: rgb(48, 122, 186);
 }
 
 .bottone_blue::before {
@@ -196,17 +196,43 @@ p {
 }
 
 .lista_l {
-    background-color: aqua;
     height: 300px;
     width: 35%;
-    border: 5px dashed orange;
+    flex-direction: column;
+    padding: 10px;
 }
 
+.centratura, .iconcine {
+    color: white;
+    padding: 10px;
+}
+
+.ico {
+    padding-right: 10px;
+}
+
+.bandiera {
+    max-width: 20px;
+}
+
+.span {
+    padding-bottom: 10px;
+}
+.centratura::after {
+    content: "\02C5";
+}
+
+.titolo_foot, .testo_colorato {
+    color: rgb(48, 122, 186);
+    font-weight: bolder;
+}
 .lista {
     background-color: blueviolet;
     width: calc(75%/4);
     border: 5px dashed orange;
     height: 300px;
+    flex-direction: column;
+    padding: 10px;
 }
  
 .footer_bottom {
